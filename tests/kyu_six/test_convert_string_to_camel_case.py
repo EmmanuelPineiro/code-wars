@@ -1,4 +1,4 @@
-from kyu_six.convert_string_to_camel_case import to_camel_case
+from src.kyu_six.convert_string_to_camel_case import to_camel_case
 
 
 class TestToCamelCase:

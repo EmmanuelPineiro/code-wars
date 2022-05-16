@@ -1,4 +1,4 @@
-from kyu_six.duplicate_encoder import duplicate_encode
+from src.kyu_six.duplicate_encoder import duplicate_encode
 
 
 class TestDuplicateEncoder:
