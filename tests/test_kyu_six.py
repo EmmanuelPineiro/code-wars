@@ -3,8 +3,7 @@ from unittest import TestCase
 from src.kyu_six import to_camel_case, duplicate_encode
 
 
-class Test(TestCase):
-    # region to_camel_case
+class TestToCamelCase(TestCase):
     def test_to_camel_case_empty(self):
         result = to_camel_case("")
         expected = ""
@@ -25,9 +24,8 @@ class Test(TestCase):
         expected = "ABC"
         assert result == expected
 
-    # endregion
 
-    # region duplicate_encode
+class TestDuplicateEncode(TestCase):
     def test_duplicate_encode_no_dupes(self):
         result = duplicate_encode("din")
         expected = "((("
@@ -47,4 +45,3 @@ class Test(TestCase):
         result = duplicate_encode("(( @")
         expected = "))(("
         assert result == expected
-    # endregion

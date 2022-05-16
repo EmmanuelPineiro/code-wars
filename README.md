@@ -17,7 +17,8 @@ new kyu file. Below is the minimum you should have.
       # your code here       
       return False
    ```
-5. once you've added your first function to your new file, move the cursor to the function name and hit `ctrl` + `shift` + `t`
-6. select `Create New Test...` and click `ok` on the popup box
-7. in the new test file, follow the layout of the existing test files. Use the data provided by code wars prompt to test
+4. once you've added your first function to your new file, move the cursor to the function name and hit `ctrl` + `shift` + `t`
+5. select `Create New Test...`, update the class name to be your function name in CamelCase, and click `ok` on the popup box  
+    <img alt="new unit test setup" src="/admin/image/new_unit_test_setup.png"/>
+6. in the new test file, follow the layout of the existing test files. Use the data provided by code wars prompt to test
    for the results against the expected values
